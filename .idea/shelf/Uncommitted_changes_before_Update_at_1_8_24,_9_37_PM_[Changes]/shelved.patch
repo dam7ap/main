@@ -1,0 +1,77 @@
+Index: portfoliostyle.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>a:hover {\n    background-color: floralwhite;\n    padding-top: 8px;\n    padding-bottom: 8px;\n}\n\na:focus{\n    background-color: floralwhite;\n    padding-top: 8px;\n    padding-bottom: 8px;\n}\n\na:active{\n    color: #892301;\n    font-weight: bold;\n}\n\nnav {\n    background-color: #CFB3E6;\n    list-style-type: none;\n    margin: 0;\n    padding: 5px;\n    font-weight: lighter;\n}\n\nul {\n    /*list-style-type: none;*/\n    margin: 0;\n    padding-left: 5px;\n    font-family: Optima, sans-serif;\n}\n\np,\nli {\n    line-height: 1.5;\n    font-size: 22px;\n    font-family: Optima, sans-serif;\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/portfoliostyle.css b/portfoliostyle.css
+--- a/portfoliostyle.css	(revision 5df537435a8f93b7e5b581562b8814851ac34cdd)
++++ b/portfoliostyle.css	(date 1704767552772)
+@@ -1,9 +1,8 @@
+ a:hover {
+     background-color: floralwhite;
+     padding-top: 8px;
+-    padding-bottom: 8px;
++    padding-bottom: 9px;
+ }
+-
+ a:focus{
+     background-color: floralwhite;
+     padding-top: 8px;
+@@ -35,4 +34,4 @@
+     line-height: 1.5;
+     font-size: 22px;
+     font-family: Optima, sans-serif;
+-}
++}
+\ No newline at end of file
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\" xmlns=\"http://www.w3.org/1999/html\">\n<head>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"portfoliostyle.css\">\n    <meta charset=\"UTF-8\">\n    <meta name=\"description\" content=\"Learn how to use HTML & CSS to make your projects be more accessible and manageable.\">\n    <title>Accessibility Tips for New Coders </title>\n</head>\n<nav class = \"menu\">\n    <ul>\n        <li style=\"color: black; list-style-type: none\">\n            <a href =\"#\">HOME</a>\n        </li>\n    </ul>\n</nav>\n<body>\n<h1>Hello, world! <br>\n    Dumara Donnell </h1>\n<p><strong>Top Accessibility considerations for HTML: </strong></p>\n    <ol>\n        <li>Alt text</li>\n        <li>Semantic elements</li>\n    </ol>\n</p>\n<a href= \"https://www.w3schools.com/html/html_accessibility.asp\" target=\"_blank\">\n    <img src=\"https://www.searchenginejournal.com/wp-content/uploads/2021/08/web-accessibility-best-practices-for-the-human-experience_-when-we-can-help-6110def593cbe-sej-1520x800.webp\"\n         alt = \"Article titled 'HTML Accessibility' from W3Schools.com. Cartoon characters left to right: man with prosthetic arm and leg; person with dark glasses and guide dog; person with watch and prosthetic legs; wheelchair-user with laptop; woman with prosthetic arm and book\"\n         width=\"800\" height=\"500\"> </a>\n</body>\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 5df537435a8f93b7e5b581562b8814851ac34cdd)
++++ b/index.html	(date 1704767745566)
+@@ -2,6 +2,7 @@
+ <html lang="en" xmlns="http://www.w3.org/1999/html">
+ <head>
+     <link rel="stylesheet" type="text/css" href="portfoliostyle.css">
++    <link rel="icon" type="image/x-icon" href="rookeicon.jpeg">
+     <meta charset="UTF-8">
+     <meta name="description" content="Learn how to use HTML & CSS to make your projects be more accessible and manageable.">
+     <title>Accessibility Tips for New Coders </title>
+@@ -10,6 +11,7 @@
+     <ul>
+         <li style="color: black; list-style-type: none">
+             <a href ="#">HOME</a>
++            <a href ="about.html">ABOUT</a>
+         </li>
+     </ul>
+ </nav>
+Index: about.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/about.html b/about.html
+new file mode 100644
+--- /dev/null	(date 1704766308998)
++++ b/about.html	(date 1704766308998)
+@@ -0,0 +1,12 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <link rel="stylesheet" type="text/css" href="portfoliostyle.css">
++    <meta charset="UTF-8">
++    <meta name="description" content="Learn how to use HTML & CSS to make your projects be more accessible and manageable.">
++    <title>About </title>
++</head>
++<body>
++<button>Submit</button>
++</body>
++</html>
+\ No newline at end of file
