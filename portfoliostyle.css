@@ -1,22 +1,32 @@
+a {
+    color: floralwhite;
+    text-decoration: none;
+}
 a:hover {
     background-color: floralwhite;
     padding-top: 8px;
     padding-bottom: 8px;
+    color: #A0134B;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 a:focus{
     background-color: floralwhite;
     padding-top: 8px;
     padding-bottom: 8px;
+    color: #A0134B;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 a:active{
     color: #892301;
-    font-weight: bold;
+    font-style: oblique;
 }
 
 nav {
-    background-color: #CFB3E6;
+    background-color: #f24089;
     list-style-type: none;
     margin: 0;
     padding: 5px;
@@ -28,6 +38,7 @@ ul {
     margin: 0;
     padding-left: 5px;
     font-family: Optima, sans-serif;
+    color: floralwhite;
 }
 
 p,
