@@ -1,0 +1,35 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="portfoliostyle.css">
+  <meta charset="UTF-8">
+  <meta name="description" content="Learn how to use HTML & CSS to make your projects be more accessible and manageable.">
+  <title>Contact Rookie </title>
+  <link rel="icon" type="image/jpeg" href="rookieicon.jpeg">
+</head>
+<nav class = "menu">
+  <ul>
+    <li style="color: black; list-style-type: none">
+      <a href ="index.html">HOME</a>
+      <a href ="contact.html">CONTACT</a>
+    </li>
+  </ul>
+</nav>
+<body>
+<h1>Contact Information: </h1>
+<p>
+  Dumara Donnell <br>
+Phone: (434) 123-4567 </p>
+<hr>
+<h2>Contact Form:</h2>
+<form action="mailto:dam7ap@virginia.edu" method="post" enctype="text/plain">
+  <label for="name">Enter your preferred name:</label>
+  <input type="text" name="name" id="name" role="textbox"><br>
+  <br><label for="email">Enter your e-mail:</label>
+  <input type="email" name="email" id="email" pattern="+@example\.edu" required placeholder="abc@gmail.com" oninvalid="this.setCustomValidity('Please use the following format: text@website.com')" role="textbox"><br>
+  <br> <label for="comment">Type your message (or press the circle when you're ready to speak):</label>
+  <input type="text"  class="speech-input" name="comment" id="comment" size="50" role="textbox/speech-input"><br>
+  <input type="submit" value="Send" role="button">
+  <input type="reset" value="Clear" role="button">
+</form>
+<script src="speech-input.js"></script>
+</body>
+</html>
