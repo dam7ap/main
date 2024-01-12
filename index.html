@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="portfoliostyle.css">
     <meta charset="UTF-8">
     <meta name="description" content="Learn how to use HTML & CSS to make your projects be more accessible and manageable.">
-    <title>Accessibility Tips for New Coders </title>
+    <title>Accessibility for New Coders</title>
     <link rel="icon" type="image/jpeg" href="rookieicon.jpeg">
 </head>
-<nav class = "menu">
+<nav class = "menu" role="menubar">
     <ul>
-        <li style="color: floralwhite ; list-style-type: none">
-            <a href ="index.html">HOME</a>
+        <li>
+            <a href ="index.html" role="menuitem">HOME</a>
             ★
-            <a href ="contact.html">CONTACT</a>
+            <a href ="contact.html" role="menuitem">CONTACT</a>
             ★
-            <a href="media.html">MEDIA</a>
+            <a href="media.html" role="menuitem">MEDIA</a>
         </li>
     </ul>
 </nav>
 <body>
+
 <h1>Hello, world! <br>
     Dumara Donnell </h1>
 <p><strong>Top Accessibility considerations for HTML: </strong></p>
@@ -27,10 +28,11 @@
         <li>Semantic elements</li>
     </ol>
 </p>
-<a href= "https://www.w3schools.com/html/html_accessibility.asp" target="_blank" aria-label="Article titled 'HTML Accessibility' from W3Schools.com opens in a new tab">
+<a href= "https://www.w3schools.com/html/html_accessibility.asp" role="link" target="_blank" aria-label="Article titled 'HTML Accessibility' from W3Schools.com opens in a new tab">
     <img src="rookielogo.jpeg"
+         role="logo"
          height="378"
          width="924"
-         alt = "Article titled 'HTML Accessibility' from W3Schools.com. Rookie company logo: pink ribbon with white check mark to the left of text  that says 'Rookie: learn to code'"> </a>
+         alt = "Rookie company logo: pink ribbon with white check mark to the left of text that says 'Rookie: learn to code'; linked to article titled 'HTML Accessibility' from W3Schools.com. "> </a>
 </body>
 </html>
