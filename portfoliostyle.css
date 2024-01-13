@@ -1,108 +1,64 @@
+nav {
+    background-color: #9B274A;
+    padding: 5px;
+    text-align: center;
+}
 a {
     color: floralwhite;
     text-decoration: none;
 }
-a:hover {
-    background-color: floralwhite;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    color: #A0134B;
-    text-decoration: underline;
-    font-weight: bold;
-}
-button {
-    background-color: #A0134B ;
-    border-radius: 50px;
-    display: inline-block;
-    padding: 10px;
-}
-
-a:focus{
-    background-color: floralwhite;
-    padding: 8px;
-    color: #A0134B;
-    text-decoration: underline;
-    font-weight: bold;
-}
-
 a:active{
-    color: #892301;
+    color: #A0134B;
     font-style: oblique;
 }
-
-nav {
-    background-color: #9B274A;
-    list-style-type: none;
-    padding: 5px;
-    font-weight: lighter;
-    /*display: block;*/
-    text-align: center;
-
+a:hover {
+    background-color: floralwhite;
+    color: #A0134B;
+    text-decoration: underline;
+    font-weight: bold;
 }
-ul li{
-    color: floralwhite;
+a:focus{
+    background-color: floralwhite;
+    color: #A0134B;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+p,h1,h2,h3,h4,h5,h6,ol,ul,a,button,input{
+    font-family: Optima, sans-serif;
 }
 
 ul li a{
     margin-inline: 30px;
-    font-family: Optima, sans-serif;
     color: floralwhite;
     padding: 10px;
-    display: inline-block;
     list-style-type: none;
 }
-p,
-label,
-li {
-    /*line-height: 1.5;*/
+p, label, li {
     font-size: 22px;
-    font-family: Optima, sans-serif;
     list-style-type: none;
 }
 ol li {
     list-style-type: decimal;
 }
+
+div {
+    padding-right: 80px;
+}
+video{
+    width: 100%;
+    height: 100%;
+}
 img {
     border-radius: 10px;
-    float: top;
-}
-img:focus {
-    outline: 2px lightcoral;
-}
-
-.alert {
-    padding: 20px;
-    background-color: #f44336;
-    color: white;
-    margin-bottom: 15px;
-}
-div {
-    /*float: right;*/
-    padding-right: 80px;
-    /*padding-left: 20px;*/
-    /*margin-right: 400px;*/
-    /*display: block;*/
 }
 div.scroll-container {
-    /*margin-top: 20px;*/
     background-color: #fae1ed;
     overflow: auto;
     white-space: nowrap;
     padding: 20px;
 }
-
-div.scroll-container img{
-    width: 50%;
-    height: 50%;
-    /*padding: 5px;*/
-}
-
-video{
-    width: 100%;
-    height: 100%;
-}
 .left {
     width: 40%;
-    /*padding: 20px 40px;*/
     float: left;
 }
