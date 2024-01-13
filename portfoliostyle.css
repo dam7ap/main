@@ -44,16 +44,15 @@ ul li{
 }
 
 ul li a{
-    /*list-style-type: none;*/
-    margin: 0;
+    margin-inline: 30px;
     font-family: Optima, sans-serif;
     color: floralwhite;
     padding: 10px;
     display: inline-block;
     list-style-type: none;
 }
-
 p,
+label,
 li {
     /*line-height: 1.5;*/
     font-size: 22px;
